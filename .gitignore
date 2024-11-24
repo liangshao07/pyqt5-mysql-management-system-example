@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+# 通常PyInstaller打包生成的可执行文件及相关临时文件不需要提交
+build/
+dist/
+*.spec
+
+# Qt Designer相关临时文件
+*.ui~
+
+# 项目配置生成的临时文件（如果有）
+*.pro.user
+
+# 虚拟环境目录，不同虚拟环境工具目录名不同，选对应自己使用的忽略
+venv/
+env/
+.venv/
+
+# 日志文件（如果不想提交日志）
+*.log
+
+# 数据库文件（如果是本地测试数据库等不想提交的情况）
+*.db
+
+# IDE特定文件和目录，例如PyCharm相关的配置文件等（如果你不想提交）
+.idea/
+*.iml
+
+# Visual Studio Code相关配置目录（如果不想提交）
+.vscode/
